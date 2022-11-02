@@ -1,0 +1,43 @@
+.contact {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/fondocontacto.jpg);
+    padding: 20px;
+    background-position: center;
+    background-size: contain;
+  
+    form {
+      fieldset {
+        @include props-flex (column,center,center);
+        text-align: center;
+      }
+  
+      background-color: $color-secundario;
+      box-sizing: content-box;
+      padding: 40px;
+      margin: 0 auto;
+      width: 300px;
+      border-radius: 8px;
+      font-size: 20px;
+      color: black;
+      font-weight: bold;
+    }
+  }
+  
+  input, area {
+    border: 0;
+    outline: #000000;
+    width: 280px;
+  }
+  
+  .contact form fieldset input, textarea {
+    border: 0;
+    outline: none;
+    width: 280px;
+    border: solid 1px #ccc;
+    padding: 10px;
+  }
+  
+  .contact form fieldset h4 {
+    font-size: 20px;
+    padding: 0px 0px 16px 2px;
+  }
+  

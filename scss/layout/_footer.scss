@@ -1,0 +1,42 @@
+footer {
+    background-color: $color-primario;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .metodosDePago {
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+    h4 {
+      padding-bottom: 10px;
+    }
+  }
+  
+  footer a {
+    padding: 10px;
+  }
+  
+  .contacto {
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+    h4 {
+      padding-bottom: 10px;
+    }
+  
+    a {
+      text-decoration: none;
+      color: $color-texto;
+    }
+  
+   
+  }

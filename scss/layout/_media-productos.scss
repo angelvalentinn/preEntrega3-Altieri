@@ -1,0 +1,23 @@
+@media (max-width: 426px){
+
+   
+    .carta{
+      img{
+        height: 80px;
+        width: 80px;
+        flex-wrap: wrap;
+        justify-content:center;
+      }   
+    }
+}
+@media (max-width:714px)and(min-width:426px){
+    .carta{
+        img{
+          height: 130px;
+          width: 130px;
+          flex-wrap: wrap;
+          justify-content:center;
+          align-items: center;
+        }   
+      }
+}

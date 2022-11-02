@@ -1,0 +1,71 @@
+@media (max-width: 426px){
+   
+    .contact form{
+        background-color: $color-primario;
+        box-sizing: content-box;
+        padding: 20px;
+        margin: 0 auto;
+        width: 200px;
+        height: 220px;
+        border-radius: 8px;
+        font-size: 10px;
+        color: black;
+        font-weight: bold;
+    }
+    .contact form fieldset{
+        height: 220px;
+        
+    }
+    .contact form fieldset input, textarea {
+        border: 0;
+        outline: none;
+        width: 180px;
+        border: solid 1px #ccc;
+        padding: 10px;
+      }
+      .contact form fieldset input, textarea {
+        border: 0;
+        outline: none;
+        width: 150px;
+        border: solid 1px #ccc;
+        padding: 10px;
+        font-size: 12px;
+      }
+      .contact form fieldset h4 {
+        font-size: 12px;
+        padding: 0px 0px 8px 2px;
+      }
+      
+}
+
+@media (max-width: 740px) and (min-width:436px){
+    .contact form{
+        background-color: $color-primario;
+        box-sizing: content-box;
+        padding: 20px;
+        margin: 0 auto;
+        width: 350px;
+        height: 350px;
+        border-radius: 8px;
+        font-size: 11px;
+        color: black;
+        font-weight: bold;
+    }
+    .contact form fieldset{
+        height: 350px;
+        
+    }
+   
+      .contact form fieldset input, textarea {
+        border: 0;
+        outline: none;
+        width: 280px;
+        border: solid 1px #ccc;
+        padding: 10px;
+        font-size: 16px;
+      }
+      .contact form fieldset h4 {
+        font-size: 18px;
+        padding: 0px 0px 8px 2px;
+      }
+}

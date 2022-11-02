@@ -1,0 +1,30 @@
+.mainPreguntas {
+   @extend .mainInicio
+  }
+  
+  .preguntas {
+    
+    @include props-flex(column,center,flex-start);
+    h1 {
+      padding: 0px 0px 25px 0px;
+    }
+  
+    h3 {
+      padding: 0px 0px 1px 0px;
+    }
+  
+    p {
+      padding: 0px 0px 0px 2px;
+    }
+  
+    section {
+      margin: 0px 0px 25px;
+  
+      
+  
+      form {
+        padding: 20px 0px 0px 0px;
+      }
+    }
+  }
+  

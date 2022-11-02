@@ -1,0 +1,230 @@
+@media (max-width: 1000px) and (min-width: 426px) {
+    .grid-container {
+      display: grid;
+      width: 100%;
+      height: 100vh;
+      grid-template-columns: repeat(3, 1fr) 50%;
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "header main main main" "header main main main" "header main main main" "header main main main" "footer footer footer footer";
+      
+    }
+  
+    
+  
+    main div {
+      margin: 5px 0px 0px 5px;
+  
+      .c {
+        margin-bottom: 40px;
+  
+        p {
+          padding-left: 3px;
+        }
+      }
+    }
+  
+    .container-3 form {
+      padding: 10px 0px 0px 0px;
+    }
+  }
+  
+  @media (max-width: 426px) {
+    .grid-container {
+      display: grid;
+      width: 100%;
+      height: 100vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: 10% repeat(8, 1fr) 2%;
+      grid-template-areas: "header" "main" "main" "main" "main" "main" "main" "footer";
+    }
+  
+    h1 {
+      font-size: 1.1em;
+    }
+  
+    h2 {
+      font-size: 1em;
+    }
+  
+    h3 {
+      font-size: 0.9em;
+    }
+  
+    h4 {
+      font-size: 0.8em;
+    }
+  
+    p {
+      font-size: 0.7em;
+    }
+  
+    header {
+      grid-area: header;
+      height: 100vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: 100px 1fr;
+      background-color: rgba(0, 0, 0, 0.203);
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .logo {
+      display: contents;
+      background-color: rgb(0, 255, 255);
+  
+      img {
+        margin: 12px 0px 12px 25px;
+      }
+    }
+  
+
+    .navBar {
+      @include props-flex (row, flex-end, center);
+      
+      height: 10vh;
+      font-size: 20px;
+      padding: 20px 15px 12px 0px;
+    }
+  
+    header {
+      nav ul li {
+        font-size: 0.4em;
+        padding: 0px 2px 0px 2px;
+      }
+  
+      div img {
+        height: 25px;
+        width: 25px;
+      }
+    }
+  
+    .navBar li a:hover {
+      font-size: 0.5em;
+    }
+  
+    .mainInicio {
+      @include props-flex (row,center,center);
+      
+      
+      
+    }
+  
+    main div {
+      margin: 10px 0px 0px 0px;
+  
+      .c {
+        margin-bottom: 10px;
+  
+        p {
+          padding-left: 0px;
+        }
+      }
+    }
+  
+    .container-3 form {
+      padding: 0px 0px 0px 0px;
+    }
+  
+    footer {
+    
+     display: flex;    
+     justify-content: space-evenly;
+
+    
+    }
+  
+    .container-3 button {
+      font-size: 0.5em;
+      font-weight: bold;
+      padding: 3px 16px;
+      border-radius: 3px;
+      border: 2px solid #5f7296;
+      color: aliceblue;
+      background-color: #8CA6DB;
+    }
+  
+    .redesSociales {
+      a {
+        padding: 1px;
+      }
+  
+      img {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  
+    .metodosDePago {
+      a {
+        padding: 1px;
+      }
+  
+      h4 {
+        font-size: 10px;
+        padding-bottom: 2px;
+      }
+  
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  
+    .contacto {
+      button {
+        font-size: 0.5em;
+        font-weight: bold;
+        padding: 3px 3px;
+        border-radius: 2px;
+        border: 2x solid #5f7296;
+        color: aliceblue;
+        background-color: #8CA6DB;
+      }
+  
+      h4 {
+        font-size: 10px;
+        padding-bottom: 2px;
+      }
+    }
+  }
+  
+ 
+  
+ 
+  
+  
+  
+  @media (max-width: 426px) {
+    .headerPreguntas {
+      max-height: 100%;
+    }
+  
+    .preguntas {
+      section button {
+        font-size: 0.6em;
+        font-weight: bold;
+        padding: 4px 18px;
+        border-radius: 2px;
+        border: 2px solid #85689b;
+        background-color: C;
+      }
+      @include props-flex (row,center,center);
+      
+      margin: 0px;
+  
+      h1 {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
+      }
+  
+      section {
+        padding: 0px 0px 12px 0px;
+        margin: 0px;
+  
+        form {
+          margin: 0px;
+          padding: 5px 0px 0px 0px;
+        }
+      }
+    }
+  }

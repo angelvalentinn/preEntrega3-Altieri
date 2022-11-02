@@ -1,0 +1,10 @@
+.grid-container {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    @include props-grid (15% 1fr 1fr 1fr , 1fr 1fr 1fr 1fr 20%);
+    grid-template-areas: "header main main main" "header main main main" "header main main main" "header main main main" "footer footer footer footer";
+    background: $color-primario;
+    background: -webkit-linear-gradient(to right, $color-primario, $color-secundario);
+    background: linear-gradient(to right, $color-primario, $color-secundario);
+  }
